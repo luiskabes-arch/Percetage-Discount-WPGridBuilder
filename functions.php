@@ -29,7 +29,7 @@ function prefix_card_attributes( $atts, $card ) {
 	$post = wpgb_get_post();
 	// If current post ID is equal to 1, change number of rows/columns.
 	if ( wpgb_is_on_sale() ) {
-		$atts['class'] = 'onsale';
+		$atts['class'][] = 'onsale';
 	}
 	return $atts;
 }
