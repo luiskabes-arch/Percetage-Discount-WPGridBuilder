@@ -1,3 +1,5 @@
+<?php
+
 //Custom block for show percentage sale product
 function prefix_register_block( $blocks ) {
 
